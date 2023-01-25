@@ -1,3 +1,5 @@
+// This external JavaScript file is linked in my HTML file on line 10
+
 // COMMON COMMANDS YOU WILL USE
 
 // alert("Hello world!"); // a pop-up box
