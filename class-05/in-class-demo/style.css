@@ -1,0 +1,67 @@
+/* PROOF OF LIFE - Something big and obnoxious to see if your external file is connected to your HTML */
+/*  
+body {
+  background-color: pink; 
+} 
+*/
+
+/* Here is a trick to select EVERY HTML element, with the asterisk selector *
+add a border to things if it helps to visualize the element! */
+
+/* * {
+  border: 2px solid black; 
+}   */
+
+/*Grab an element by its name*/
+ul {
+  width: 50%;
+  padding: 30px; /* padding is the space between the content and the element's border */
+}
+
+/* drill into the location of the elements*/
+/* you can also chain selectors together, separated by comma*/
+
+nav li, nav a { /*go to the nav, find the list items AND go to the nav, find the anchor tags*/
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Using % is NOT percentage of the object itself, but the percentage of the parent element */
+
+img {
+  width: 90%; /* Images will be 90% of the width their parent element*/
+}
+
+/* Select an element by it's ID with the # symbol + the name you assigned as the ID value */
+
+#hero { /* find the element with the ID name of "hero" */
+  width: 960px; 
+}
+
+
+/* Select all elements in a class with the . symbol + the name you assigned as the class value */
+
+.lower { /* all HTML elements with the class named "lower" */ 
+  max-width: 30%;
+  display: inline-block;
+  border: 3px solid yellow;
+  margin-right: 20px;
+}
+
+main {
+  margin: 20px; /* margin is the "personal bubble" of the element, the space around it*/
+}
+
+h1 {
+  float: left;
+}
+
+header {
+  background-color: rgb(241, 146, 241);
+  height: 150px;
+}
+
+footer p {
+  text-align: center;
+}
