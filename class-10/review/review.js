@@ -1,20 +1,26 @@
 // anatomy of a function
 
-// DECLARING/DEFINING A FUNCTION
+// Declaring/Defining a function - creating it
+
+//                  optional: extra information the function needs to do its job
 // function functionName(parameters){code to execute}
 
+function addTwoNumbersHere(num1, num2){
+  return num1 + num2;
+}
+
+// Function Expression --> yes it's a function, be careful with it
 // let functionName = function(parameters){code to execute}
 
-// INVOKE/CALL
-// functionName();
-
-function addTwoNumbers(num1, num2){
+let addTwoNumbersThere = function(num1, num2){
   return num1 + num2;
 }
 
-let addTwoNumbers = function(num1, num2){
-  return num1 + num2;
-}
+// function expressions can easily be reassigned
+addTwoNumbersThere = "not a function anymore!";
+
+// INVOKE/CALL - use it
+// functionName(arguments, if expected);        
 
 // STRUCTURE OF LOOPS
 
@@ -31,6 +37,10 @@ while (!isCorrect){
   }
 }
 
-// for(initial value; condition to evaluate; increment){}
+// for(initial value; condition to evaluate; increment){execute this code}
+
+for (let i = 0; i < 10; i++){
+  console.log(i);
+}
 
 

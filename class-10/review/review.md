@@ -13,6 +13,12 @@ HTML & CSS
 ## CSS
 
 - Quiz 5 question 5
+- select by element name
+  - `p {background-color: blue;}`
+- select by id
+  - `#name-of-id {background-color: red;}`
+- select by class
+  - `.name-of-class {background-color: green;}`
 
 ## LOOPS
 
@@ -23,5 +29,3 @@ HTML & CSS
 ## FUNCTIONS
 
 - Quiz 7
-- prompt within a function
-- 
