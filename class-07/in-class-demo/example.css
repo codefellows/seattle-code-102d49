@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(143, 235, 240);
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  /* width: 100%; */
+}
+
+header {
+  background-color: rgb(230, 231, 151);
+  height: 100px;
+}
+
+h1 {
+  float: left;
+  margin-left: 20px;
+  margin-right: 50px;
+  color: black;
+  text-shadow: 5px 5px 5px white;
+  font-size: 50px;
+  margin-top: 15px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+nav li a {
+  color: rgb(23, 145, 23);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+nav li a:hover {
+  color: teal;
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+main {
+  width: 80%;
+  margin: 30px auto;
+  border: 3px solid black;
+}
+
+main p {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+section {
+  width: 100%;
+  margin-left: 10px;
+}
+
+#hero {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.lower {
+  width: 100%;
+  display: inline-block;
+  margin-left: 20px auto;
+}
+
+.lower img {
+  max-width: 95%;
+}
+
+.lower article {
+  max-width: 30%;
+  display: inline-block;
+  margin-left: 10px;
+  background-color: white;
+  text-align: center;
+  border: 3px dashed gray;
+}
+
+footer {
+  background-color: rgb(230, 231, 151);
+  text-align: center;
+  height: 50px;
+}
+
+footer p {
+  padding-top: 10px;
+  font-size: 20px;
+}

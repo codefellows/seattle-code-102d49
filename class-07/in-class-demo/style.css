@@ -1,0 +1,42 @@
+ul {
+  width: 50%;
+}
+
+nav li, nav a {
+
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  width: 90%;
+}
+
+#hero {
+  width: 70%;
+}
+
+.lower {
+  max-width: 30%;
+  display: inline-block;
+  border: 3px solid yellow;
+  margin-right: 20px;
+}
+
+main {
+  margin: 20px;
+}
+
+h1 {
+  float: left;
+}
+
+header {
+  background-color: rgb(241, 146, 241);
+  height: 150px;
+}
+
+footer p {
+  text-align: center;
+}
